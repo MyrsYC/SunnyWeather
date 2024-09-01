@@ -1,6 +1,5 @@
 package com.example.sunnyweather.logic.model
 
-import android.health.connect.datatypes.units.Temperature
 import com.google.gson.annotations.SerializedName
 import java.util.Date
 
@@ -13,7 +12,7 @@ data class DailyResponse(val status: String, val result: Result) {
     )
 
     data class Temperature(val max: Float, val min: Float)
-    data class Skycon(val value: String, val data: Date)
+    data class Skycon(val value: String, val date: Date)
     data class LifeIndex(
         val coldRisk: List<LifeDescription>, val carWashing:
         List<LifeDescription>, val ultraviolet: List<LifeDescription>,

@@ -3,4 +3,11 @@
     <string name="picture_description">图片</string>
     <string name="place_hint">输入地点</string>
     <string name="search_hint">搜索</string>
+    <string name="forecast">预报</string>
+    <string name="line">|</string>
+    <string name="car_wash">洗车</string>
+    <string name="ultraviolet">实时紫外线</string>
+    <string name="dress">穿衣</string>
+    <string name="life_index">生活指数</string>
+    <string name="cold">感冒</string>
 </resources>
